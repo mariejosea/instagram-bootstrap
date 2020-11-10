@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+    <title>Instagram Bootstrap</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark bg-light">
+        <a class="navbar-brand"><i class="fab fa-instagram"></i>Instagram</a>
+        <div class="nav-item dropdown d-flex align-items-center"> 
+            <button type="button" class="btn btn-success btn-sm" data-toggle= "modal" data-target="#exampleModal">Create a new post</button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <textarea class="form-control" id="message-text"></textarea>
+                            <button type="button" class="btn btn-outline-light btn-sm">
+                                <i class="fas fa-camera"></i>
+                            </button>
+                            <button type="button" class="btn btn-outline-light btn-sm">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </button>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn btn-success btn-sm">Publish</button>
+                        </div>
+                    </div>
+                </div>
+            </div>          
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-cog"></i></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Log out</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar -->
+    <!-- Buttons -->
+    <nav aria-label="Page navigation example" class="margen">
+        <ul class="pagination pagination-sm  justify-content-center">
+            <li class="page-item"><a class="page-link" href="index.html">
+                <i class="fas fa-th"></i></a>
+            </li>
+            <li class="page-item"><a class="page-link" href="feed.html">
+                <i class="fas fa-square"></i></a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Buttons -->
+    <!-- Collage -->
+    <div class="container-fluid">   
+        <div class="row">            
+            <figure class="col-md-4">
+                    <img alt="picture" src="https://cdn.pixabay.com/photo/2016/07/19/04/40/moon-1527501__340.jpg"
+                    class="img-fluid">
+            </figure>
+            <figure class="col-md-4">
+                    <img alt="picture" src="https://i.pinimg.com/736x/3e/6d/6b/3e6d6bfc95af91b97b80ea5ebcb8fa62.jpg"
+                    class="img-fluid">
+            </figure>
+            <figure class="col-md-4">
+                    <img alt="picture" src="https://www.derbycityweekend.com/wp-content/uploads/2019/03/rose-flower-pexels.jpg"
+                    class="img-fluid">
+            </figure>
+        </div>
+    </div>      
+    <div class="container-fluid">   
+        <div class="row">            
+            <figure class="col-md-4">
+                <img alt="picture" src="https://pbs.twimg.com/media/DkBASc7WwAASj3R.jpg"
+                class="img-fluid">
+            </figure>
+            <figure class="col-md-4">
+                    <img alt="picture" src="https://www.cucinare.tv/wp-content/uploads/2020/07/Lemon-pie.jpg"
+                    class="img-fluid">
+            </figure>
+            <figure class="col-md-4">
+                    <img alt="picture" src="https://images.squarespace-cdn.com/content/v1/5d3b3b3b8e1a1d000123d049/1587576075681-T3S77ZQUUUXB95D15GRM/ke17ZwdGBToddI8pDm48kFWxnDtCdRm2WA9rXcwtIYR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UcTSrQkGwCGRqSxozz07hWZrYGYYH8sg4qn8Lpf9k1pYMHPsat2_S1jaQY3SwdyaXg/famous+streets+in+London.jpg"
+                    class="img-fluid">
+            </figure>
+        </div>
+    </div>  
+    <div class="container-fluid">   
+        <div class="row">            
+            <figure class="col-md-4">
+                    <img alt="picture" src="https://upload.wikimedia.org/wikipedia/commons/8/82/Oia%2C_Santorini_HDR_sunset.jpg"
+                    class="img-fluid">
+            </figure>
+            <figure class="col-md-4">
+                    <img alt="picture" src="https://img.freepik.com/free-photo/beautiful-architecture-building-tokyo-cityscape_74190-7538.jpg?size=626&ext=jpg"
+                    class="img-fluid">
+            </figure>
+            <figure class="col-md-4">
+                    <img alt="picture" src="https://www.ongoldroad.com/wp-content/uploads/2018/10/shutterstock_1107980570-825x510.jpg"
+                    class="img-fluid">
+            </figure>
+        </div>
+    </div>       
+    <!-- End of the collage -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
+</body>
+</html>

@@ -1,0 +1,46 @@
+body {
+    background: rgb(228, 228, 228);
+}
+i {
+    padding: 5px;
+    color: rgb(88, 88, 88);
+}
+#navbarDropdown {
+    color:rgb(88, 88, 88)
+}
+.navbar-brand {
+    color: rgb(88, 88, 88) !important;
+    margin-right: 0 !important;
+    font-family: 'Lobster', cursive;
+}
+.margen {
+    background: white;
+}
+.post {
+    background: white;
+    border-radius: 5px;
+    margin: 5% auto;
+}
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+}
+.date {
+    color: rgb(189, 189, 189);
+}
+div[class*='comment'] {
+    display: inline-flex;
+    padding: 0;
+    margin: 1%;
+    
+}
+.comment-2 {
+    width: 75%;
+    
+}
+h5, p{
+    margin: 2%
+}
+
